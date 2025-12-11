@@ -9,7 +9,7 @@ import mosek.fusion as mf
 class Horizon:
     T: int
     delta_t_hours: float
- 
+  
 
 @dataclass
 class GeneratorParams:
