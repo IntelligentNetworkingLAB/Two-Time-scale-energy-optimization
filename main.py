@@ -4,7 +4,7 @@ from typing import List, Tuple, Literal, Optional, Dict, Any
 import numpy as np
 import mosek.fusion as mf
 
-   
+
 @dataclass
 class Horizon:
     T: int
