@@ -14,7 +14,8 @@ class Horizon:
 @dataclass
 class GeneratorParams:
     G_max: float
-    alpha: float = 0.
+    alpha: float = 0.0
+
     beta: float = 0.0
     const: float = 0.0
     ramp_rate: float = 1e6
